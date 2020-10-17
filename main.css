@@ -1,0 +1,176 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Allerta', sans-serif;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.title-a{
+    font-size:24px; 
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+.titulo{
+font-size:70px;
+font-family: 'Montserrat', sans-serif;
+display:flex;
+justify-content: center;
+}
+.title-b{
+    font-size:24px;
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.title-b-s{
+    font-size:24px;
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.guitarras{
+    color:#1f313c;
+}
+.guitarras h2{
+    font-size:35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Portada{
+    background-image:url("images/background.png");
+    color:white;
+    padding:20px;
+}
+.menu{
+    display:inline-block;
+    font-size:18px;
+    padding:12px;
+}
+.menu li{
+    display:inline-block;
+    margin:5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.logotipo{
+    display:inline-block;
+    padding-left:20px;
+    margin:2px;
+}
+button{
+    display:inline-block;
+    position:relative;
+    left:550px;
+    padding:7px;
+    border-radius:5px;
+    background:#fd324e;
+    border:none;
+    color:white;
+    }
+.guitarra{
+display:grid;
+grid-template-columns: auto auto;
+justify-content: center;
+column-gap: 20px;
+margin-top: 30px;
+border:1px solid #1f313c;
+border-radius:8px;
+width: 800px;
+height: 257px;
+}
+
+.container1{
+    display:flex;
+    justify-content: center;
+}
+.container-guitarra{
+grid-template-columns:auto auto;
+align-items: center;
+position:relative;
+top:80px;
+}
+.derecha{
+    position:relative;
+    top:-95px;
+}
+.izquierda{
+    position:relative;
+    top:60px;
+}
+
+ol li{
+    margin-bottom:8px;
+}
+.footer{
+    background: #273b47;
+    margin-bottom:20px;
+}
+.contacto img{
+    display:block;
+}
+.container2{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    margin-top:15px;
+    column-gap:15px;
+    
+}
+.container2 *{
+    margin-top:5px;
+    margin-bottom:4px;
+}
+.tel-Email{
+    display:block;
+}
+.formulario{
+display:grid;
+grid-template-columns:auto auto;
+column-gap: 20px;
+align-items:center;
+}
+.formulario1{
+    width:250px;
+}
+.datos input{
+    display:block;
+}
+.sexo input{
+    display:inline;
+    margin:3px;
+}
+.intereses{
+    display:grid;
+    grid-template-columns:auto auto;
+}
+.formulario2{
+    display:grid;
+}
+.inline input{
+    display:inline;
+}
+.boton{
+    display:flex;
+    justify-content: flex-end;
+}
+.boton input{
+    border-radius:15px;
+    background:#fd324e;
+    color:white;
+    padding:3px 8px 3px 8px;
+
+}
