@@ -51,7 +51,7 @@ justify-content: center;
 .Portada{
     background-image:url("images/background.png");
     color:white;
-    padding:20px;
+    padding:40px;
 }
 .menu{
     display:inline-block;
@@ -75,11 +75,13 @@ button{
     display:inline-block;
     position:relative;
     left:550px;
-    padding:7px;
+    padding:7px 12px;
     border-radius:5px;
     background:#fd324e;
     border:none;
+    cursor:pointer;
     color:white;
+    background:linear-gradient(to left,#fe344e,#ff7250);
     }
 .guitarra{
 display:grid;
@@ -109,7 +111,7 @@ top:80px;
 }
 .izquierda{
     position:relative;
-    top:60px;
+    top:40px;
 }
 
 ol li{
@@ -173,4 +175,19 @@ align-items:center;
     color:white;
     padding:3px 8px 3px 8px;
 
+}
+table{
+    width:100%;
+}
+th{
+    background:#273b47;
+    color:white;
+    padding:10px;
+    text-align:left;
+}
+td{
+    padding:20px;
+}
+table, td, th{
+    border:1px solid #273b47;
 }
